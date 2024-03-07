@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "games",
+  "info": {
+    "singularName": "game",
+    "pluralName": "games",
+    "displayName": "games"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "game_id": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "home_id": {
+      "type": "string"
+    },
+    "home_eashl_id": {
+      "type": "string"
+    },
+    "away_id": {
+      "type": "string"
+    },
+    "away_eashl_id": {
+      "type": "string"
+    },
+    "home_score": {
+      "type": "string"
+    },
+    "away_score": {
+      "type": "string"
+    },
+    "completed": {
+      "type": "string"
+    },
+    "season": {
+      "type": "string"
+    },
+    "overtime": {
+      "type": "string"
+    }
+  }
+}

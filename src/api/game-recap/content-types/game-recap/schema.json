@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "game_recaps",
+  "info": {
+    "singularName": "game-recap",
+    "pluralName": "game-recaps",
+    "displayName": "Game Recap",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "players",
+  "info": {
+    "singularName": "player",
+    "pluralName": "players",
+    "displayName": "players"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "eashl_player_id": {
+      "type": "string"
+    },
+    "team_id": {
+      "type": "string"
+    },
+    "discord_name": {
+      "type": "string"
+    },
+    "discord_id": {
+      "type": "string"
+    },
+    "primary_position": {
+      "type": "string"
+    },
+    "secondary_position": {
+      "type": "string"
+    },
+    "ft_pt": {
+      "type": "string"
+    }
+  }
+}
