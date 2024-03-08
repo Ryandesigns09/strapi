@@ -75,7 +75,7 @@ sqlite: {
     filename: path.join(
       __dirname,
       '..',
-      env('DATABASE_FILENAME', '/database/data.db'),
+      env('DATABASE_FILENAME', '/data.db'),
     ),
   },
   useNullAsDefault: true,
