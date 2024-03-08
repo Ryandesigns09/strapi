@@ -75,7 +75,7 @@ module.exports = ({ env }) => {
         filename: path.join(
           __dirname,
           '..',
-          env('DATABASE_FILENAME', 'hockey_database.db')
+      filename: env('DATABASE_FILENAME', './database/data.db'),
         ),
       },
       useNullAsDefault: true,
