@@ -20,6 +20,12 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "json": {
+      "type": "json"
+    },
+    "date2": {
+      "type": "string"
     }
   }
 }
